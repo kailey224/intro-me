@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+a{text-decoration: none;}
+
+body{ font-family: 'Noto Sans KR', sans-serif;}
+h2{ font-size: 40px; font-weight: 500;}
+h3{ font-size: 28px; font-weight: 500;} 
+
+
+#header nav{
+    padding: 20px 40px;
+    background-color: grey;
+}
+#header nav ul{
+    display: flex;
+    list-style-type: none;
+}
+#header nav ul li{
+    margin-right: 30px;
+}
+#header nav ul li a{
+    color: white;
+}
+#header nav ul li a:hover{
+    transition: all 1s ease;
+    letter-spacing: 4px;
+    background-color: darkgrey;
+}
+/* header end */
+
+#main{
+    margin: 40px;
+}
+/* main end */
+
+#profile{
+    margin-bottom: 40px;
+}
+#profile h2{
+    margin-bottom: 20px;
+}
+#profile div{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+#profile div img{
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+#profile div img:hover{
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
+/* profile end */
+
+#detail{
+    display: flex;
+    flex-wrap: wrap;
+}
+#detail section{
+    margin-bottom: 40px;
+    width: 50%;
+}
+
+#detail section h3{
+    margin-bottom: 10px;
+}
+#detail section ul, 
+#detail section ol{
+    margin-left: 40px;
+}
+#detail section:first-child ul{
+    list-style: none;
+    margin-left: 20px;
+}
+#detail section:first-child ul li span{
+    font-weight: bold;
+}
+/* detail end */
+
+#footer{
+    padding: 30px 40px;
+    background-color: rgb(204, 204, 204);
+}
+#footer p{
+    font-size: small;
+    font-weight: 400;
+}
+/* footer end */
+
+#skill {
+    margin: 40px;
+}
+#skill h2{
+    margin-bottom: 20px;
+}
+#skill article img{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 300px;
+}
